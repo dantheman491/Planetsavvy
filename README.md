@@ -39,9 +39,11 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
  
 
 ### MVP (Minimal Viable Product: 
-1. It will include a drop down menu that will allow the user to select a news and an input for a user to search for something specifc.
-2. Once the search is complete the search will show specific image associated with the date along with a thought from the photographer.
-3. If the user is not satisfied with the selections, they will be able to refresh and go to the picture of the day.
+1. Build out Html, CSS, and JS
+2. It will include a drop down menu that will allow the user to select a news and an input for a user to search for something specifc.
+3. Once the search is complete the search will show specific image associated with the date along with a thought from the photographer.
+4. If the user is not satisfied with the selections, they will be able to refresh and go to the picture of the day.
+
 
 
 ### Post MVP: 
@@ -50,3 +52,4 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 3. I would like to add video.
 4. I would like to animation to the title. 
 5. I would like to add audio to the background. 
+6. Save to local storage
