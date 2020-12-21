@@ -4,12 +4,12 @@
 ### App Title: PlanetSavvy
 
 ### App Description:
-Provides images and a brief explanation on the celestial body.
+Provides images and a brief explanation on the celestial body. give more data
 
 ### API: 
 The API used is from NASA https://api.nasa.gov//. I intend to get the picture of a celestial body and an explation from the photographer on said image. User should also be able to select a new image based on a date set by the API
 
-### API and Data Sample: 
+### API and Data Sample: cut it 
 ![Screen Shot 2020-12-21 at 10 17 53 AM](https://user-images.githubusercontent.com/22455354/102792128-11470100-4376-11eb-98c8-9f095cf8fba8.png)
 
 ### Wireframes
