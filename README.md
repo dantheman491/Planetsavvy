@@ -16,5 +16,9 @@
     "title": "Betelgeuse Imagined",
     "url": "https://apod.nasa.gov/apod/image/2001/BetelgeuseImagined_EsoCalcada_960.jpg"
 }
-- **Wireframes**: ![Desktop HD](https://user-images.githubusercontent.com/22455354/102790153-0ccd1900-4373-11eb-9bd5-ac2209ce4477.png)
+- **Wireframes**: 
+![Desktop HD](https://user-images.githubusercontent.com/22455354/102790153-0ccd1900-4373-11eb-9bd5-ac2209ce4477.png) 
+![Tablet](https://user-images.githubusercontent.com/22455354/102790414-659cb180-4373-11eb-8401-39e8c7fe628c.png)
+![Mobile](https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png)
+
 
