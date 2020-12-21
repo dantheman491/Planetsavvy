@@ -20,3 +20,27 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 
 -**Priority Matrix**:
 ![Priority Matrix](https://user-images.githubusercontent.com/22455354/102794718-c333fc80-4379-11eb-8a3c-1c8d51663abc.jpg)
+
+-**Timeframe**:
+ Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| HTML | H | 3hrs| 30 mins | |
+| CSS | H | 3hrs| 6 hrs | |
+| Inputs | H | 1hrs| 5 hrs | |
+| Drop Down | H | 2hrs| 5 hrs | |
+| API added | H | 5hrs| 5 hrs | |
+| Testing | H | 3hrs| 2 hrs ||
+| Total | H |18 hrs| 24 hrs | |
+
+# MVP: 
+1. It will include a drop down menu that will allow the user to select a news and an input for a user to search for something specifc.
+2. Once the search is complete the search will show specific image associated with the date along with a thought from the photographer.
+3. If the user is not satisfied with the selections, they will be able to refresh and go to the picture of the day.
+
+
+# Post MVP: 
+1. Like to add at least 2 more endpoints to broaden the content 
+2. Adding media space for adds. This will allow monetization in the future
+3. I would like to add video.
+4. I would like to animation to the title. 
+5. I would like to add audio to the background. 
