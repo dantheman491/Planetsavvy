@@ -1,14 +1,14 @@
 # PlanetSavvy
 
 
-- **App Title**:PlanetSavvy
+## App Title**:PlanetSavvy
 
-- **App Description**: Provides images and a brief explanation on the celestial body.
+## App Description**: Provides images and a brief explanation on the celestial body.
 
-- **API**: 
+## API: 
 The API used is from NASA https://api.nasa.gov//. I intend to get the picture of a celestial body and an explation from the photographer on said image. User should also be able to select a new image based on a date set by the API. 
 
-- **API and Data Sample**: 
+## API and Data Sample: 
 ![Screen Shot 2020-12-21 at 10 17 53 AM](https://user-images.githubusercontent.com/22455354/102792128-11470100-4376-11eb-98c8-9f095cf8fba8.png)
 - **Wireframes**: 
 ### Desktop
@@ -18,10 +18,10 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 ### Mobile
 ![Mobile](https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png)
 
--**Priority Matrix**:
+## Priority Matrix:
 ![Priority Matrix](https://user-images.githubusercontent.com/22455354/102794718-c333fc80-4379-11eb-8a3c-1c8d51663abc.jpg)
 
--**Timeframe**:
+## Timeframe:
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | HTML | H | 3hrs| 30 mins | |
