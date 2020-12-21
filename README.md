@@ -10,7 +10,7 @@ Space is a thing of wonder for many. Ever wonder what would happen if a photogra
 ### API: 
 The API used is from NASA https://api.nasa.gov//. I intend to get the picture of a celestial body and an explation from the photographer on said image. User should also be able to select a new image based on a date set by the API
 
-### API and Data Sample: cut it 
+### API and Data Sample: 
 ![Screen Shot 2020-12-21 at 10 17 53 AM](https://user-images.githubusercontent.com/22455354/102803794-d1d4e080-4386-11eb-88a3-1bde7a890393.png)
 
 ### MVP (Minimal Viable Product: 
