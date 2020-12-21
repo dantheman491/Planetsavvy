@@ -33,7 +33,6 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 | HTML | H | 3hrs|  | |
 | CSS | H | 3hrs| | |
 | Inputs | H | 1hrs| | |
-| Drop Down | H | 2hrs|  | |
 | API added | H | 5hrs| | |
 | Testing | H | 3hrs| ||
 | Total | H |18 hrs| | |
