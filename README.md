@@ -26,6 +26,7 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 </p>
 
 ### Timeframe:
+<center>
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | HTML | H | 3hrs| 30 mins | |
@@ -35,6 +36,7 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 | API added | H | 5hrs| 5 hrs | |
 | Testing | H | 3hrs| 2 hrs ||
 | Total | H |18 hrs| 24 hrs | |
+ </center>
 
 ### MVP: 
 1. It will include a drop down menu that will allow the user to select a news and an input for a user to search for something specifc.
