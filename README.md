@@ -30,13 +30,13 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML | H | 3hrs| 30 mins | |
-| CSS | H | 3hrs| 6 hrs | |
-| Inputs | H | 1hrs| 5 hrs | |
-| Drop Down | H | 2hrs| 5 hrs | |
-| API added | H | 5hrs| 5 hrs | |
-| Testing | H | 3hrs| 2 hrs ||
-| Total | H |18 hrs| 24 hrs | |
+| HTML | H | 3hrs|  | |
+| CSS | H | 3hrs| | |
+| Inputs | H | 1hrs| | |
+| Drop Down | H | 2hrs|  | |
+| API added | H | 5hrs| | |
+| Testing | H | 3hrs| ||
+| Total | H |18 hrs| | |
  
 
 ### MVP: 
