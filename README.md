@@ -20,7 +20,8 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 
 
 ## Priority Matrix:
-![Priority Matrix](https://user-images.githubusercontent.com/22455354/102794718-c333fc80-4379-11eb-8a3c-1c8d51663abc.jpg)
+<img src="https://user-images.githubusercontent.com/22455354/102794718-c333fc80-4379-11eb-8a3c-1c8d51663abc.jpg" width="400" height="400">
+
 
 ## Timeframe:
  Component | Priority | Estimated Time | Time Invested | Actual Time |
