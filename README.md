@@ -5,8 +5,7 @@
 
 ### App Description**: Provides images and a brief explanation on the celestial body.
 
-### API: <font size="4">The API used is from NASA https://api.nasa.gov//. I intend to get the picture of a celestial body and an explation from the photographer on said image. User should also be able to select a new image based on a date set by the API.</font>
-
+### API: 
 The API used is from NASA https://api.nasa.gov//. I intend to get the picture of a celestial body and an explation from the photographer on said image. User should also be able to select a new image based on a date set by the API
 
 ### API and Data Sample: 
