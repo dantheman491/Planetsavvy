@@ -19,3 +19,4 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 ![Mobile](https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png)
 
 -**Priority Matrix**:
+![Priority Matrix](https://user-images.githubusercontent.com/22455354/102794718-c333fc80-4379-11eb-8a3c-1c8d51663abc.jpg)
