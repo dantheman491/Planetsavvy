@@ -12,9 +12,11 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 ![Screen Shot 2020-12-21 at 10 17 53 AM](https://user-images.githubusercontent.com/22455354/102792128-11470100-4376-11eb-98c8-9f095cf8fba8.png)
 
 - **Wireframes**: 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:Solarized dark             |  Solarized Ocean
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+| Desktop  | Tablet | Mobile
+| ------------- | ------------- |
+| <img src="https://user-images.githubusercontent.com/22455354/102790153-0ccd1900-4373-11eb-9bd5-ac2209ce4477.png" width="400" height="400">  | <img src="https://user-images.githubusercontent.com/22455354/102790414-659cb180-4373-11eb-8401-39e8c7fe628c.png" width="400" height="400">
+ |<img src="https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png" width="200" height="400"> |
+
 
 ### Desktop
 <img src="https://user-images.githubusercontent.com/22455354/102790153-0ccd1900-4373-11eb-9bd5-ac2209ce4477.png" width="400" height="400">
@@ -23,7 +25,7 @@ Solarized dark             |  Solarized Ocean
 <img src="https://user-images.githubusercontent.com/22455354/102790414-659cb180-4373-11eb-8401-39e8c7fe628c.png" width="400" height="400">
 
 ### Mobile
-<img src="https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png" width="200" height="400">
 
 
 ## Priority Matrix:
