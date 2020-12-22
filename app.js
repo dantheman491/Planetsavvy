@@ -13,11 +13,10 @@ const getData = async () => {
   try {
     const getDate = document.querySelector('input').value
     console.log(getDate)
-    console.log(getDate)
     let response = await axios.get(`https://api.nasa.gov/planetary/apod?api_key=NzCwqiVcoXazjMjrCdZ1bGnACqnypTMrkuVBmdU2&date=${getDate}`);
-    console.log(response)
-    // renderList(response.data)
-    // return response
+    console.log(response.data)
+    renderList(response.data)
+    return response
   } catch (error) {
     console.log()
   }
@@ -26,12 +25,18 @@ const getData = async () => {
 const searchButton = document.querySelector('#search')
 searchButton.addEventListener('click', getData)
 
-function renderList(date) {
-  date.forEach((moon) => {
-    let moonTitle = document.createElement('h1')
-    moonTitle.innerText = moon.Title
-    document.querySelector('#contentGoesHere').append(moonTitle)
-  })
+function renderList(moonData) {
+  console.log(moonData)
+  let moonDate = document.createElement('h2')
+  console.log(moonDate)
+  moonDate.innerText = moonData.date
+  console.log(moonDate)
+
+  let spaceImage = document.createElement('img')
+  spaceImage.setAttribute('src', moonData.hdurl)
+
+  document.querySelector('.contentGoesHere').append(spaceImage)
+  document.querySelector('.contentGoesHere').append(moonDate)
 }
 
 
