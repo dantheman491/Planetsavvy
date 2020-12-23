@@ -1,56 +1,103 @@
+
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  color:white;
+  background: #0F1725;
   text-align: center;
-  padding:10px;
-  margin: 15px;
-  background-image:url('https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
   
 }
 h1{
-  font-size: 60px;
-  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-top:100px;
+  margin-bottom:-4px;
 }
-h3{
-  font-size: 16px;
-  font-weight: 100;
+h2{
+  margin: 1px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 66px;
+  font-weight: lighter;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
   text-align: center;
+  color: #ffffff;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  margin-left: 30%;
+  margin-right: 30%;
+   
 }
 p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
   text-align: justify;
   text-align: center;
 }
-.spaceDiv{
-  width:50%
+hr{
+  width: 8%;
+  margin-top:40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #4198e6;
+  
+}
+span{
+  font-family: 'Open Sans', sans-serif  ;
+  font-weight: bold;
+  font-size: 14px;
+}
+h4{
+font: 14px;
+color:white;
 }
 input {
+  text-align: center;
   padding: 8px;
   margin:5px;
-  border-radius: 10px;
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 18px;
   font-size: 20px;
 }
 img {
-  
-  height: 80%;
-  width: 80%;
-  
+  padding:0px;
+  height: 50%;
+  width: 50%;
 }
 
 button{
-  color:white;
+  color:#0f1725;
   text-transform: uppercase;
-  padding: 8px;
-  margin:5px;
+  padding: 10px;
+  margin:10px;
+  font-family: 'Open Sans', sans-serif;;
   font-size: 16px;
-  border: 4px solid rgb(35, 185, 245);
-  background-color: black;
-  border-radius: 10px;
-
-  
+  border: 0px solid rgb(35, 185, 245);
+  background-color: #e2ebfc;
+  border-radius: 8px;
+  width: 140px;
   
 }
+
 .search-section{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 14px;
+}
+.contentGoesHere{
+  padding:0px;
+  background:rgba(104, 104, 104, 0.1)
 }

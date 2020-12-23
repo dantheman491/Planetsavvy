@@ -30,9 +30,9 @@ function renderList(moonData) {
 
   let spaceDiv = document.createElement('div')
   spaceDiv.innerHTML = `
-    <h2>${moonData.date}</h2>
-    <img src=${moonData.hdurl} />
-    <h3>${moonData.explanation}</h3>
+  <img src=${moonData.hdurl} />
+  <h3>${moonData.date}</h3>
+    <h4>${moonData.explanation}</h4>
   `
 
   contentInfo.append(spaceDiv)

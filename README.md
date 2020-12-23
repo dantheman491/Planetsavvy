@@ -8,7 +8,7 @@
 Space is a thing of wonder for many. Ever wonder what would happen if a photographer took an image of a celestial body everyday? What inspirations would come of such observations? Imagine no more with PlanetSavvy. 
 
 ### API: 
-The API used is from NASA https://api.nasa.gov//. I intend to get the picture of a celestial body and an explation from the photographer on said image. User should also be able to select a new image based on a date set by the API
+The API used is from NASA https://api.nasa.gov/. I intend to get the picture of a celestial body and an explation from the photographer on said image. User should also be able to select a new image based on a date set by the API
 
 ### API and Data Sample: 
 ![Screen Shot 2020-12-21 at 10 17 53 AM](https://user-images.githubusercontent.com/22455354/102803794-d1d4e080-4386-11eb-88a3-1bde7a890393.png)
@@ -21,11 +21,10 @@ The API used is from NASA https://api.nasa.gov//. I intend to get the picture of
 
 ### Post MVP: 
 1. Like to add at least 2 more endpoints to broaden the content 
-2. Adding media space for adds. This will allow monetization in the future
-3. I would like to add video.
-4. I would like to animation to the title. 
-5. I would like to add audio to the background. 
-6. Save to local storage
+2. I would like to add video.
+3. I would like to animation to the title. 
+4. I would like to add audio to the background. 
+5. Save to local storage
 
 
 ### Wireframes
