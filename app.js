@@ -28,17 +28,34 @@ searchButton.addEventListener('click', getData)
 function renderList(moonData) {
   contentInfo.innerHTML = ' '
 
+
+  let photo1 = document.createElement('img')
+  photo1.src = moonData.hdurl
+  contentInfo.append(photo1)
+
   let spaceDiv = document.createElement('div')
-  spaceDiv.innerHTML = `
-  <img src=${moonData.hdurl} />
-  <h3>${moonData.date}</h3>
-    <h4>${moonData.explanation}</h4>
-  `
+  spaceDiv.className = 'space-div'
 
+  let moonDate = document.createElement('h4')
+  moonDate.innerText = moonData.date
+  spaceDiv.append(moonDate)
+
+  let moonExplanation = document.createElement('h5')
+  moonExplanation.innerText = moonData.explanation
+  spaceDiv.append(moonExplanation)
+  // `
+  // <h4>${moonData.date}</h4>
+  // <h4>${moonData.explanation}</h4>
+  // `
+  console.log(spaceDiv)
   contentInfo.append(spaceDiv)
+
+  // let spaceDiv2 = document.createElement('div')
+  // spaceDiv2.innerHTML = `<h4>${moonData.date}</h4>
+  // <h4>${moonData.explanation}</h4>`
+  // contentInfo.append(spaceDiv2)
+  //---------------trying to get 2 seperate divs-----------------------------
   //refactor for later
-
-
   //   let moonDate = document.createElement('h2')
   //   console.log(moonDate)
   //   moonDate.innerText = moonData.date

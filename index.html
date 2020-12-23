@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 
 <html>
+<!-- <video autoplay muted loop id="myVideo">
+  <source
+    src="https://player.vimeo.com/external/370317126.sd.mp4?s=0bc41b8b2dfef550d7c96a1147b4e3ec68373e5b&profile_id=165"
+    type="video/mp4">
+</video> -->
 
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,6 +22,7 @@
 </head>
 
 <body>
+
   <h1>PLANET</h1>
   <h2>SAVVY</h2>
   <p>Powered by <span>NASA</span></p>
@@ -28,16 +34,22 @@
 
 
   <div class="search-section">
-    <input id="searchTerm" type="text" placeholder="Enter Date">
+
+    <input type="date" name="selectDate" id="selectDate">
 
     <button id="search">Explore</button>
   </div>
+  <label for="Date must be between 1996 to 2020">Date must be between 1996 to 2020</label>
   <div class="background">
-    <h4></h4>
-
   </div>
-  <section class="contentGoesHere" placeholder="filler text">
-  </section>
+
+  <div class="paragraphs"></div>
+  <h4></h4>
+
+
+  <div class="contentGoesHere" placeholder="filler text">
+    <h5></h5>
+  </div>
 </body>
 
 </html>

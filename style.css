@@ -1,8 +1,15 @@
 
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 body{
-  background: #0F1725;
+ background: #0F1725; 
   text-align: center;
-  
 }
 h1{
   font-family:'Open Sans', sans-serif;
@@ -59,22 +66,49 @@ span{
   font-weight: bold;
   font-size: 14px;
 }
+
 h4{
+font-family:'Open Sans', sans-serif ;
+font-weight: lighter;
 font: 14px;
 color:white;
+padding-top: 20px;
+}
+h5{
+font-family:'Open Sans', sans-serif ;
+font-weight: lighter;
+font: 14px;
+color:white;
+padding-bottom:30px;
+margin-left: 90px;
+margin-right: 90px;
+
+}
+label{
+  font-family:'Open Sans', sans-serif  ;
+  font-size: 12px;
+  color:white;
+  margin-right:160px;
+
 }
 input {
+  font-family:'Open Sans', sans-serif ;
+  color: white;
+  text-transform: uppercase;
   text-align: center;
-  padding: 8px;
-  margin:5px;
-  border: 1px solid rgb(236, 236, 236);
-  border-radius: 18px;
-  font-size: 20px;
+  padding: 9px;
+  margin:6px;
+  background-color:#5b626e;
+  border:.5px solid #5b626e;
+  border-bottom:  solid white;
+  border-radius: 1px;
+  font-size: 16px;
 }
+
 img {
-  padding:0px;
-  height: 50%;
-  width: 50%;
+  margin:0px;
+  height: 70%;
+  width: 80%;
 }
 
 button{
@@ -98,6 +132,15 @@ button{
   border-radius: 14px;
 }
 .contentGoesHere{
-  padding:0px;
+  margin-left:400px;
+  margin-right:400px;
+  margin-top:10px;
+  
+}
+.space-div{
+  margin-top:-10px;
+  margin-left: 110px;
+  margin-right: 110px;;
   background:rgba(104, 104, 104, 0.1)
+  
 }
