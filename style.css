@@ -1,12 +1,4 @@
 
-#myVideo {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
 body{
  background: #0F1725; 
   text-align: center;
@@ -69,15 +61,15 @@ span{
 
 h4{
 font-family:'Open Sans', sans-serif ;
-font-weight: lighter;
-font: 14px;
+font-weight: normal;
+font-size: 16px;
 color:white;
 padding-top: 20px;
 }
 h5{
 font-family:'Open Sans', sans-serif ;
-font-weight: lighter;
-font: 14px;
+font-weight: normal;
+font-size: 16px;
 color:white;
 padding-bottom:30px;
 margin-left: 90px;
