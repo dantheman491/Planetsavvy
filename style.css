@@ -72,8 +72,8 @@ font-weight: normal;
 font-size: 16px;
 color:white;
 padding-bottom:30px;
-margin-left: 90px;
-margin-right: 90px;
+margin-left: 10%;
+margin-right: 10%;
 
 }
 label{
@@ -124,15 +124,15 @@ button{
   border-radius: 14px;
 }
 .contentGoesHere{
-  margin-left:400px;
-  margin-right:400px;
+  margin-left:4%;
+  margin-right:4%;
   margin-top:10px;
   
 }
 .space-div{
   margin-top:-10px;
-  margin-left: 110px;
-  margin-right: 110px;;
+  margin-left: 10%;
+  margin-right: 10%;
   background:rgba(104, 104, 104, 0.1)
   
 }
