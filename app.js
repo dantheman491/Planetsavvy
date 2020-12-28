@@ -1,13 +1,9 @@
 
 const DOMAIN = 'https://api.nasa.gov/planetary/apod/?api_key=';
-const API_KEY = 'NzCwqiVcoXazjMjrCdZ1bGnACqnypTMrkuVBmdU2' /* Your API key goes here */
+const API_KEY = 'NzCwqiVcoXazjMjrCdZ1bGnACqnypTMrkuVBmdU2'
 const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&date=`
 const contentInfo = document.querySelector('.contentGoesHere')
-// let searchButton = document.querySelector("#search")
-// button.addEventListener('click', async () => {
-//   let response = await axios.get(`https://api.nasa.gov/planetary/apod?api_key=NzCwqiVcoXazjMjrCdZ1bGnACqnypTMrkuVBmdU2&date=${2020 - 10 - 01}`);
-//   console.log(response);
-// });
+
 
 const getData = async () => {
   try {
