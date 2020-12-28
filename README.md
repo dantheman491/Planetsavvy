@@ -17,10 +17,10 @@ The API used is from NASA https://api.nasa.gov/. I intend to get the picture of 
 1. Build out Html, CSS, and JS
 2. It will include a text field that will allow the user to insert a date and explore the cosmos.
 3. Once the search is complete the search will show specific image associated with the date along with a thought from the photographer.
-4. If the user is not satisfied with the selections, they will be able to refresh and go to the picture of the day by clicking the discover button.
+4. If the user is not satisfied with the selections, they will be able to go to the picture of the day by clicking the discover button.
 
 ### Post MVP: 
-1. Like to add at least 2 more endpoints to broaden the content 
+1. I would ike to add at least 2 more endpoints to broaden the content 
 2. I would like to add video.
 3. I would like to animation to the title. 
 4. I would like to add audio to the background. 
@@ -33,7 +33,7 @@ The API used is from NASA https://api.nasa.gov/. I intend to get the picture of 
 |         Desktop          |            Tablet            |               Mobile            |
 | -------------------------| -----------------------------| --------------------------------|
 
-|<img src="https://user-images.githubusercontent.com/22455354/102790153-0ccd1900-4373-11eb-9bd5-ac2209ce4477.png" width="400" height="400">|<img src="https://user-images.githubusercontent.com/22455354/102790414-659cb180-4373-11eb-8401-39e8c7fe628c.png" width="400" height="400">|<img src="https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png" width="150" height="400"> 
+|<img src="https://user-images.githubusercontent.com/22455354/102790153-0ccd1900-4373-11eb-9bd5-ac2209ce4477.png" width="400" height="400">|<img src="https://user-images.githubusercontent.com/22455354/102790414-659cb180-4373-11eb-8401-39e8c7fe628c.png" width="350" height="400">|<img src="https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png" width="150" height="400"> 
 
 
 ### Priority Matrix:
@@ -45,10 +45,22 @@ The API used is from NASA https://api.nasa.gov/. I intend to get the picture of 
 
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML | H | 3hrs|  | |
-| CSS | H | 3hrs| | |
-| Inputs | H | 1hrs| | |
-| API added | H | 5hrs| | |
-| Testing | H | 3hrs| ||
-| Total | H |18 hrs| | |
+| HTML | H | 3hrs| 3.5hrs | 4hrs|
+| CSS | H | 3hrs| 5hrs | 6hrs|
+| Inputs | H | 1hrs| 2hrs | 3hrs|
+| API added | H | 5hrs| 3.5hrs|4hrs |
+| Testing | H | 3hrs| 2hrs |3hrs|
+| Total | H |18 hrs|20hrs | 20hrs |
  
+### Snippet: 
+
+const searchButton = document.querySelector('#search')
+searchButton.addEventListener('click', getData)
+
+function renderList(moonData) {
+  contentInfo.innerHTML = ' '
+
+
+  let photo1 = document.createElement('img')
+  photo1.src = moonData.hdurl
+  contentInfo.append(photo1)
