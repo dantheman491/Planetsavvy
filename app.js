@@ -39,6 +39,8 @@ function renderList(moonData) {
   spaceDiv.append(moonExplanation)
 
   contentInfo.append(spaceDiv)
+
 }
+
 
 
