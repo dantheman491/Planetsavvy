@@ -54,10 +54,25 @@ The API used is from NASA https://api.nasa.gov/. I intend to get the picture of 
  
 ### Snippet: 
 
-const searchButton = document.querySelector('#search')
-searchButton.addEventListener('click', getData)
   function renderList(moonData) {
-    contentInfo.innerHTML = ' '
-    let photo1 = document.createElement('img')
-    photo1.src = moonData.hdurl
-    contentInfo.append(photo1)
+  contentInfo.innerHTML = ' '
+
+
+  let photo1 = document.createElement('img')
+  photo1.src = moonData.hdurl
+  contentInfo.append(photo1)
+
+  let spaceDiv = document.createElement('div')
+  spaceDiv.className = 'space-div'
+
+  let moonDate = document.createElement('h4')
+  moonDate.innerText = moonData.date
+  spaceDiv.append(moonDate)
+
+  let moonExplanation = document.createElement('h5')
+  moonExplanation.innerText = moonData.explanation
+  spaceDiv.append(moonExplanation)
+
+  contentInfo.append(spaceDiv)
+}
+
