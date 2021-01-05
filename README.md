@@ -13,11 +13,13 @@ The API used is from NASA https://api.nasa.gov/. I intend to get the picture of 
 ### API and Data Sample: 
 ![Screen Shot 2020-12-21 at 10 17 53 AM](https://user-images.githubusercontent.com/22455354/102803794-d1d4e080-4386-11eb-88a3-1bde7a890393.png)
 
-### MVP (Minimal Viable Product: 
+### MVP Minimal Viable Product: 
 1. Build out Html, CSS, and JS
 2. It will include a text field that will allow the user to insert a date and explore the cosmos.
 3. Once the search is complete the search will show specific image associated with the date along with a thought from the photographer.
 4. If the user is not satisfied with the selections, they will be able to go to the picture of the day by clicking the discover button.
+5. Add media queries to change size of text on small device screens.
+
 
 ### Post MVP: 
 1. I would ike to add at least 2 more endpoints to broaden the content 
