@@ -43,14 +43,14 @@ The API used is from NASA https://api.nasa.gov/. I intend to get the picture of 
 
 ### Timeframe:
 
- Component | Priority | Estimated Time | Time Invested | Actual Time |
+ Component | Priority | Estimated Time |  Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML | H | 3hrs| 3.5hrs | 4hrs|
-| CSS | H | 3hrs| 5hrs | 6hrs|
-| Inputs | H | 1hrs| 2hrs | 3hrs|
-| API added | H | 5hrs| 3.5hrs|4hrs |
-| Testing | H | 3hrs| 2hrs |3hrs|
-| Total | H |18 hrs|20hrs | 20hrs |
+| HTML | H | 3hrs| 4hrs|
+| CSS | H | 3hrs | 6hrs|
+| Inputs | H | 1hrs| 3hrs|
+| API added | H | 5hrs|4hrs |
+| Testing | H | 3hrs|3hrs|
+| Total | H |18 hrs| 20hrs |
  
 ### Snippet: 
 
